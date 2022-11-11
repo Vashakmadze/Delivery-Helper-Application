@@ -1,4 +1,5 @@
 # Delivery Helper Application
- Custom Made Delivery Helper Mobile Application. 
- 
-The application was written in Java using Android Studio IDE. The back-end of the application is based on the Firebase Realtime Database and the front end uses componets and techniques from Material Design to ensure user-friendly UI and UX. To learn more please reference Documentation from either HTML page or from directory. 
+The application was written with Java, Firebase Realtime Database, and Material Design to ensure user-friendly UI/UX. To learn more please reference Documentation from either HTML page or from directory.
+
+![GIF SHOWCASE](https://github.com/Vashakmadze/memegenerator/blob/main/Meme%20Generator%20gif.gif "WEBSITE SHOWCASE")
+
