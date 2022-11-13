@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#2F4858">
+
+        <com.google.android.material.bottomappbar.BottomAppBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#86BBD8"
+            android:id="@+id/topAppBarAdd"
+            android:background="#F26419"
+            android:layout_gravity="top"
+            app:contentInsetStart="0dp"
+            app:titleTextAppearance="@font/roboto">
+
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:id="@+id/topNavigationViewAdd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#86BBD8"
+                app:menu="@menu/navigation_menu_add"
+                />
+
+        </com.google.android.material.bottomappbar.BottomAppBar>
+
+    <FrameLayout
+        android:id="@+id/addFragmentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:clickable="true"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:backgroundTint="#F6AE2D"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

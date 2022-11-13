@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "954749090622",
+    "project_id": "internallfinal",
+    "storage_bucket": "internallfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:954749090622:android:10d141f6f84e76b1c94a6f",
+        "android_client_info": {
+          "package_name": "com.example.internallfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "954749090622-l7g4k0quhk76bpmm24tfielenqjmd5er.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB4yG1At7tuDNaKF60WqL9YAyE4kvAnjLg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "954749090622-l7g4k0quhk76bpmm24tfielenqjmd5er.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
